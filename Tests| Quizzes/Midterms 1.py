@@ -29,7 +29,7 @@ class KelvinToFahrenheit(TemperatureConversion):
 
 class FahrenheitToKelvin(TemperatureConversion):
     def conversion(self):
-        print(str((self._temp - 32) * 5/9 + 237.15) + " Kelvin")
+        print(str((self._temp - 32) * 5/9 + 273.15) + " Kelvin")
 
 
 type = ["Celsius", "Fahrenheit", "Kelvin"]
